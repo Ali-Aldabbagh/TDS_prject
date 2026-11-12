@@ -1,0 +1,19 @@
+# catkin / build
+build/
+devel/
+install/
+*.o
+*.so
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# recorded data & scratch output
+*.bag
+*.pcd
+/terrain_detection/src/*.csv
+# editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
