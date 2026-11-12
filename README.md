@@ -144,7 +144,7 @@ https://github.com/Ali-Aldabbagh/terrain-pointcloud-dataset
 
 ## Author
 
-**Ali Al-Dabbagh** — Ph.D. [ali-aldabbagh.github.io](https://ali-aldabbagh.github.io)
+**Ali Al-Dabbagh** — Ph.D., UCLouvain · [ali-aldabbagh.github.io](https://ali-aldabbagh.github.io)
 
 ## License
 
