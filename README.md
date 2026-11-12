@@ -70,7 +70,8 @@ training/
 
 ## Requirements
 
-- Ubuntu 18.04 / 20.04 with **ROS 1** (Melodic / Noetic)
+- Developed and tested on **Ubuntu 16.04 with ROS Kinetic** (Python 2.7). It should port to
+  Melodic / Noetic with minor changes (Python 3 for the scripts).
 - PCL, `pcl_ros`, `pcl_conversions`, `message_filters`, `tf`, `cv_bridge`
 - [`realsense2_camera`](https://github.com/IntelRealSense/realsense-ros) and
   [`imu_filter_madgwick`](http://wiki.ros.org/imu_filter_madgwick)
@@ -78,8 +79,9 @@ training/
   (`roslibpy` for `Speed_predictor.py`)
 - Tested with an Intel RealSense D435i
 
-> The `.pkl` models were pickled with an older scikit-learn. If loading fails on your
-> version, retrain with `training/train_svm.py` (takes seconds).
+> The `.pkl` models were pickled with the scikit-learn version available on Kinetic
+> (Python 2.7). If loading fails on your version, retrain with `training/train_svm.py`
+> (takes seconds).
 
 ## Build
 
@@ -117,7 +119,7 @@ Visualise `/mya` in RViz and echo the terrain prediction with `rostopic echo /TP
 
 ```bash
 cd training
-python3 train_svm.py      # reads features/modelTotal.csv, writes modeltotal.pkl
+python train_svm.py       # reads features/modelTotal.csv, writes modeltotal.pkl
 cp modeltotal.pkl ../terrain_detection/src/
 ```
 
