@@ -129,14 +129,22 @@ New feature tables can be recorded with the `features_recording` node.
 
 If you use this code, please cite:
 
-1. A. Al-Dabbagh et al., IEEE Xplore (2022): https://ieeexplore.ieee.org/abstract/document/9891830
-2. A. Al-Dabbagh et al., IEEE Xplore (2021): https://ieeexplore.ieee.org/abstract/document/9636077
+1. "Depth Vision based Terrain Detection Algorithm during Human Locomotion," IEEE, 2022.
+   https://ieeexplore.ieee.org/abstract/document/9891830
+2. "Using Depth Vision for Terrain Detection during Active Locomotion," IEEE, 2021.
+   https://ieeexplore.ieee.org/abstract/document/9636077
 
-<!-- TODO: replace the two lines above with full titles/venues or BibTeX from IEEE Xplore ("Cite This" → BibTeX). -->
+## Dataset
+
+The point-cloud recordings used to develop this system are public:
+**[3D-Point Cloud dataset of various geometrical terrains in urban environments recorded during
+human locomotion](https://doi.org/10.14428/DVN/S0LSIW)** (Open Data @ UCLouvain, DOI
+10.14428/DVN/S0LSIW). Loader scripts and documentation:
+https://github.com/Ali-Aldabbagh/terrain-pointcloud-dataset
 
 ## Author
 
-**Ali Al-Dabbagh** — Ph.D., UCLouvain · [ali-aldabbagh.github.io](https://ali-aldabbagh.github.io)
+**Ali Al-Dabbagh** — Ph.D. [ali-aldabbagh.github.io](https://ali-aldabbagh.github.io)
 
 ## License
 
